@@ -64,7 +64,7 @@ function gameEngine() {
         y: 15,
       },
     ];
-    // musicSound.play();
+    musicSound.play();
     score = 0;
   }
 
@@ -122,7 +122,7 @@ function gameEngine() {
 }
 
 //Main logic
-
+musicSound.play();
 let hiscore = localStorage.getItem("hiscore");
 if(hiscore === null){
     hiscoreval = 0;
